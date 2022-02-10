@@ -1,0 +1,94 @@
+{
+  "name": "fabdev",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@fontsource/roboto": "^4.5.1",
+    "@mui/icons-material": "^5.0.4",
+    "@mui/lab": "^5.0.0-alpha.51",
+    "@mui/material": "^5.0.4",
+    "@popperjs/core": "2.10.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "connected-react-router": "6.9.1",
+    "dompurify": "2.3.3",
+    "extenso": "^2.0.1",
+    "guid-typescript": "^1.0.9",
+    "history": "4.10.1",
+    "jquery": "^3.6.0",
+    "luxon": "1.28.0",
+    "merge": "^2.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-imask": "^6.2.2",
+    "react-json-view": "1.21.3",
+    "react-pdf": "^5.4.1",
+    "react-redux": "7.2.5",
+    "react-router": "5.2.1",
+    "react-router-dom": "5.3.0",
+    "react-router-redux": "4.0.8",
+    "react-scripts": "4.0.3",
+    "redux": "4.1.1",
+    "redux-signalr": "1.2.0",
+    "redux-thunk": "2.3.0",
+    "reselect": "^4.0.0",
+    "simple-peer": "^9.11.0",
+    "svgo": "2.7.0",
+    "web-vitals": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/dompurify": "2.3.1",
+    "@types/extenso": "^2.0.1",
+    "@types/history": "4.7.9",
+    "@types/jest": "27.0.2",
+    "@types/jquery": "3.5.7",
+    "@types/luxon": "1.24.3",
+    "@types/material-ui": "^0.21.10",
+    "@types/node": "16.11.0",
+    "@types/react": "^17.0.30",
+    "@types/react-dom": "17.0.9",
+    "@types/react-pdf": "^5.0.8",
+    "@types/react-redux": "7.1.19",
+    "@types/react-router": "5.1.17",
+    "@types/react-router-dom": "5.3.1",
+    "@types/react-router-redux": "5.0.20",
+    "@types/signalr": "2.2.37",
+    "@types/simple-peer": "9.11.3",
+    "@typescript-eslint/parser": "5.0.0",
+    "cross-env": "7.0.3",
+    "eslint-plugin-flowtype": "6.1.0",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.26.1",
+    "nan": "2.15.0",
+    "typescript": "4.4.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "cross-env CI=true react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src/**/*.ts ./src/**/*.tsx"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

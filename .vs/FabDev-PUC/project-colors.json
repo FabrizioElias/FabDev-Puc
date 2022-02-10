@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7d02de9e-a505-47dd-8bd0-e65fd85aa7f1": {
+      "ProjectGuid": "7d02de9e-a505-47dd-8bd0-e65fd85aa7f1",
+      "DisplayName": "FabDevSourceGenerator",
+      "ColorIndex": 0
+    },
+    "e44c203c-0975-48b5-a35b-d96241cacfe5": {
+      "ProjectGuid": "e44c203c-0975-48b5-a35b-d96241cacfe5",
+      "DisplayName": "FabDev",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
